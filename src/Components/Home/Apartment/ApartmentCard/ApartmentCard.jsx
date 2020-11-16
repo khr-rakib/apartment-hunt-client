@@ -8,7 +8,7 @@ const ApartmentCard = (props) => {
   const { title, location, bedroom, bathroom, price, img } = props.singleApartment
   return (
     <div className="col-md-4 col-sm-12 apartmentCard">
-      <div className="single-item my-4">
+      <div className=" my-4">
         <div className="card shadow">
           <img className="card-img-top" src={img} alt={title} />
           <div className="card-body text-muted">
