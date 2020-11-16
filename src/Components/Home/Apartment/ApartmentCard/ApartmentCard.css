@@ -1,0 +1,21 @@
+
+.apartmentCard {
+  transition: .3s all ease-in;
+  transform: scale(.9);
+}
+.apartmentCard:hover {
+  transform: scale(1);
+}
+
+/* .card{
+  height: 480px;
+} */
+
+.icon-style {
+  font-size: 23px;
+}
+
+.icon-style {
+  font-size: 15px;
+  margin-right: 10px;
+}
