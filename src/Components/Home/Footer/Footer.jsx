@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faInstagramSquare, faLinkedin, faLinkedinIn, faYoutube, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookSquare, faInstagramSquare, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -19,22 +19,22 @@ const Footer = () => {
           <div className="col-md-2 col-12 mb-3">
             <h6 className="font-weight-bold">Company</h6>
             <ul className="list-unstyled mt-4">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Site Map</a></li>
-              <li><a href="#">Support Center</a></li>
-              <li><a href="#">Terms Conditions</a></li>
-              <li><a href="#">Submit Listing</a></li>
+              <li><a href="/#">About</a></li>
+              <li><a href="/#">Site Map</a></li>
+              <li><a href="/#">Support Center</a></li>
+              <li><a href="/#">Terms Conditions</a></li>
+              <li><a href="/#">Submit Listing</a></li>
             </ul>
           </div>
           <div className="col-md-2 col-12 mb-3">
             <h6 className="font-weight-bold">Quick Links</h6>
             <ul className="list-unstyled mt-4">
-              <li><a href="#">Quick Links</a></li>
-              <li><a href="#">Rentals</a></li>
-              <li><a href="#">Sales</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Terms Conditions</a></li>
-              <li><a href="#">Our blog</a></li>
+              <li><a href="/#">Quick Links</a></li>
+              <li><a href="/#">Rentals</a></li>
+              <li><a href="/#">Sales</a></li>
+              <li><a href="/#">Contact</a></li>
+              <li><a href="/#">Terms Conditions</a></li>
+              <li><a href="/#">Our blog</a></li>
             </ul>
           </div>
           <div className="col-md-4 col-12 mb-3">

@@ -22,7 +22,6 @@ const ApartmentCard = (props) => {
               <h2 className="font-weight-bold green-color">${price}</h2>
               <button className="btn text-white green-bg">View Details</button>
             </div>
-
           </div>
         </div>
       </div>
