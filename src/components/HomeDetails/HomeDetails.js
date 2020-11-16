@@ -40,8 +40,7 @@ const HomeDetails = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="card card-outline-secondary" style={{backgroundColor:'#EFEFEF'}}>
-                        <div className="card-body">
-                                                        
+                        <div className="card-body">                                                        
                             <form autocomplete="off" className="form" role="form" style={{paddingTop:'25px'}}>
                             <div className="form-group">
                                 <input className="form-control" id="full-name" required="required" title="First and last name" placeholder="Full Name" type="text"/>
