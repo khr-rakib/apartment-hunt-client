@@ -1,4 +1,15 @@
-.btn-style {
+body {
+  background: #F1F6F4;
+}
+
+.green-bg {
   background-color: #275A53;
-  color: #fff;
+}
+
+.green-color {
+  color: #275A53;
+}
+
+.heading-color {
+  color: #16322E;
 }

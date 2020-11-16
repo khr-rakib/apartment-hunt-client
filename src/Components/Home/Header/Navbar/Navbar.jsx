@@ -5,8 +5,8 @@ import logo from '../../../../logos/Logo.png'
 
 const Navbar = () => {
   return (
-    <div className="container-fluid">
-      <nav className="navbar navbar-expand-lg px-5">
+    <div className="container-fluid bg-white">
+      <nav className="navbar navbar-expand-lg px-5 bg-white">
         <a className="navbar-brand" href="/home">
           <img style={{ width: '100px' }} src={logo} alt="" />
         </a>
@@ -23,19 +23,19 @@ const Navbar = () => {
               <a className="nav-link mr-4 font-weight-bold text-mute" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mr-4 font-weight-bold text-mute" href="#project">Service</a>
+              <a className="nav-link mr-4 font-weight-bold text-mute" href="#service">Service</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mr-4 font-weight-bold text-mute" href="/#">Concerns</a>
+              <a className="nav-link mr-4 font-weight-bold text-mute" href="#Concerns">Concerns</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mr-4 font-weight-bold text-mute" href="#contact">Event</a>
+              <a className="nav-link mr-4 font-weight-bold text-mute" href="#event">Event</a>
             </li>
             <li className="nav-item">
               <a className="nav-link mr-4 font-weight-bold text-mute" href="#contact">Contact</a>
             </li>
             <li className="nav-item">
-              <Link to="/login"><button style={{ borderRadius: '5px' }} className="btn btn-style px-4">Login</button></Link>
+              <Link to="/login"><button style={{ borderRadius: '5px' }} className="btn green-bg text-white px-4">Login</button></Link>
             </li>
           </ul>
         </div>

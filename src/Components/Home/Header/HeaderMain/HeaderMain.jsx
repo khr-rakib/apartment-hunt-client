@@ -8,7 +8,7 @@ const HeaderMain = () => {
         <div className="col-md-10 text-center">
           <h1 className="text-white my-4">FIND YOUR HOUSE RENT</h1>
           <span><input className="w-50 px-3 py-2 mr-3 input-style" type="text" placeholder="Search..." /></span>
-          <span><input className="btn btn-style text-white px-4 py-2" type="submit" value="Find Now"/></span>
+          <span><input className="btn green-bg text-white px-4 py-2" type="submit" value="Find Now"/></span>
         </div>
       </div>
     </div>
