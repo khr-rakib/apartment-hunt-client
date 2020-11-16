@@ -18,11 +18,11 @@ const Dashboard = () => {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="customer__area__left">
-                            <div className="customer__area__left__top">
+                            {/* <div className="customer__area__left__top">
                                 <Link to="/">
                                     <img src={logo} alt="" />
                                 </Link>
-                            </div>
+                            </div> */}
                             <div className="customer__area__left__bottom">
                                 {
                                     true ?

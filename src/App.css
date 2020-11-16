@@ -12,6 +12,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.green-bg {
+  background-color: #275A53;
+}
+
+.green-color {
+  color: #275A53;
+}
+
+.heading-color {
+  color: #16322E;
+}
+
+.apartmentCard .card-body span img {
+  height: 15px;
+  margin-right: 5px;
+}
+ul.social-media a img {
+  height: 30px;
+}
 
 .app__btn {
   padding: 12px 30px;

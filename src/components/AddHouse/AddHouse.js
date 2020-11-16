@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import UploadIcon from '../../assets/icons/upload-icon.png'
 
 const AddHouse = () => {
+
+    const [houseInfo, setHouseInfo] = useState({
+        title: "",
+        location: "",
+        bathroom: "",
+        bedroom: "",
+        description: "",
+        price: "",
+        details: ""
+    })
+
     return (
         <div className="order__form row">
             <div className="col-md-6">
