@@ -9,14 +9,14 @@ const Footer = () => {
     <footer className="footer-area clear-both green-bg text-white">
       <div className="container pt-5 px-5">
         <div className="row py-5">
-          <div className="col-md-4 d-flex mt-3">
+          <div className="col-md-4 col-12 mb-3 d-flex mt-3">
             <span><FontAwesomeIcon className="icon-style" icon={faMapMarkerAlt} /></span>
             <span><p>H#340 (4th Floor), Road #24, <br />
                     New DOHS, Mohakhali, Dhaka, Bangladesh <br />
                     Phone: 018XXXXXXXX <br />
                     E-mail: info@company.com</p></span>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 col-12 mb-3">
             <h6 className="font-weight-bold">Company</h6>
             <ul className="list-unstyled mt-4">
               <li><a href="#">About</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
               <li><a href="#">Submit Listing</a></li>
             </ul>
           </div>
-          <div className="col-md-2">
+          <div className="col-md-2 col-12 mb-3">
             <h6 className="font-weight-bold">Quick Links</h6>
             <ul className="list-unstyled mt-4">
               <li><a href="#">Quick Links</a></li>
@@ -37,7 +37,7 @@ const Footer = () => {
               <li><a href="#">Our blog</a></li>
             </ul>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col-12 mb-3">
             <h6 className="font-weight-bold mb-4">About Us</h6>
             <p>We are the top real estate <br />
                 agency in Sydney, with agents <br />
