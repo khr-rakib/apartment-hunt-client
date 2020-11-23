@@ -1,0 +1,11 @@
+.header-bg {
+  background-image: linear-gradient(#232323c4, #232323c4), url('../../../../images/background.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.input-style {
+  border-radius: 5px;
+  background-color: #F1F6F4;
+}
